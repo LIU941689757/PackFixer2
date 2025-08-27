@@ -73,6 +73,7 @@ namespace PackFixer
             }
         }
 
+        //命令启动方法
         static void Run(string fileName, string arguments, string workingDir)
         {
             var p = new Process();
